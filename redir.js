@@ -19,6 +19,8 @@ if(link.get('')) {
             // document.getElementById('msg').remove();
             // document.write('<p style="color:red;">Inválido. Verifique o link.</p>');
             alert('Não foi possível redirecionar para "' + link.get('') + '".\nVerifique o link e tente novamente.');
-            window.location.href = 'about:blank';
+            if (confirm('hellooooo') == true) {
+                window.location.href = 'about:blank';
+            } else {window.location.href = 'about:blank';}
     }
 }
