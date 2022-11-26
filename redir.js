@@ -16,6 +16,8 @@ if(link.get('')) {
             window.location.href = 'https://joaofefes.github.io/denver/'; window.close(); break;
         case 'linkedin':
             window.location.href = 'https://br.linkedin.com/in/pedrolucas-sds'; window.close(); break;
+        case 'links':
+            window.location.href = 'https://pedrsv.github.io/links'; window.close(); break;
         default:
             // document.getElementById('msg').remove();
             // document.write('<p style="color:red;">Inválido. Verifique o link.</p>');
