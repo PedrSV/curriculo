@@ -1,3 +1,4 @@
+// SCRIPT EXPERIMENTAL
 const link = new URLSearchParams(document.location.search);
 if(link.get('')) {
     switch(link.get('')){
@@ -18,9 +19,11 @@ if(link.get('')) {
         default:
             // document.getElementById('msg').remove();
             // document.write('<p style="color:red;">Inválido. Verifique o link.</p>');
-            alert('Não foi possível redirecionar para "' + link.get('') + '".\nVerifique o link e tente novamente.');
-            if (confirm('hellooooo') == true) {
-                window.location.href = document.referrer;
-            } else {window.location.href = 'about:blank';}
+            // alert('Não foi possível redirecionar para "' + link.get('') + '".\nVerifique o link e tente novamente.');
+            if (confirm('Não foi possível redirecionar para "' + link.get('') + '".\nVerifique o link e tente novamente.')) {
+                window.location.href = 'about:blank';
+            } else {
+                window.location.href = 'about:blank';
+            }
     }
 }
