@@ -3,7 +3,7 @@ const link = new URLSearchParams(document.location.search);
 if(link.get('')) {
     switch(link.get('')){
         case 'portalfamepi':
-            window.location.href = 'http://inscricoes.fundacaomatiasmachline.org.br/FrameHTML/web/app/edu/PortalEducacional/login/'; break;
+            window.location.href = 'http://inscricoes.fundacaomatiasmachline.org.br/FrameHTML//web/app/edu/PortalEducacional/#/nota-falta-unificada'; break;
         case 'famepi':
             window.location.href = 'https://www.famepi.org.br'; window.close(); break;
         case 'github':
