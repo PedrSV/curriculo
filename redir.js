@@ -1,9 +1,9 @@
-// SCRIPT EXPERIMENTAL
+// SCRIPT EXPERIMENTAL PARA REDIRECIONAMENTO
 const link = new URLSearchParams(document.location.search);
 if(link.get('')) {
     switch(link.get('')){
         case 'portalfamepi':
-            window.location.href = 'http://inscricoes.fundacaomatiasmachline.org.br/FrameHTML//web/app/edu/PortalEducacional/#/nota-falta-unificada'; break;
+            window.location.href = 'http://inscricoes.fundacaomatiasmachline.org.br/FrameHTML/web/app/edu/PortalEducacional/login/'; window.close(); break;
         case 'famepi':
             window.location.href = 'https://www.famepi.org.br'; window.close(); break;
         case 'github':
@@ -19,11 +19,8 @@ if(link.get('')) {
         case 'links':
             window.location.href = 'https://pedrsv.github.io/links'; window.close(); break;
         default:
-            // document.getElementById('msg').remove();
-            // document.write('<p style="color:red;">Inválido. Verifique o link.</p>');
-            // alert('Não foi possível redirecionar para "' + link.get('') + '".\nVerifique o link e tente novamente.');
             if (confirm('Não foi possível redirecionar para "' + link.get('') + '".\nVerifique o link e tente novamente.')) {
-                window.location.href = 'about:blank';
+                window.location.href = 'about:blank'; // Em outro momento, testar com window.close();
             } else {
                 window.location.href = 'about:blank';
             }
