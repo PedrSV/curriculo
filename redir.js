@@ -14,8 +14,6 @@ if(link.get('')) {
             window.location.href = 'https://www.instagram.com/pedrsv/'; break;
         case 'denver':
             window.location.href = 'https://joaofefes.github.io/denver/'; break;
-        case 'famepi':
-            window.location.href = 'https://www.famepi.org.br'; break;
         case 'portalfamepi':
             window.location.href = 'http://inscricoes.fundacaomatiasmachline.org.br/FrameHTML/web/app/edu/PortalEducacional/login/'; break;
         case 'oldportalfamepi':
