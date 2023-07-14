@@ -4,6 +4,8 @@ if(link.get('')) {
     switch(link.get('')){
         case 'github':
             window.location.href = 'http://github.com/pedrsv'; break;
+        case 'twitch':
+            window.location.href = 'http://twitch.tv/pedrsv'; break;
         case 'linkedin':
             window.location.href = 'https://br.linkedin.com/in/pedrolucas-sds'; break;
         case 'links':
