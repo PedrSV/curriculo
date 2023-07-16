@@ -13,7 +13,7 @@ if(link.get('')) {
         case 'instagram':
             window.location.href = 'https://www.instagram.com/pedrsv/'; break;
         case 'tiktok':
-            window.location.href = 'https://tiktok.com/@pedrsv'; break;
+            window.location.href = 'https://tiktok.com/@pedrsv/'; break;
         case 'denver':
             window.location.href = 'https://joaofefes.github.io/denver/'; break;
         case 'portalfamepi':
